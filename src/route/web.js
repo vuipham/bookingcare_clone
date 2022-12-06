@@ -11,7 +11,6 @@ let initWebRoutes = (app) => {
     });  
 
     //rest api
-
     return app.use("/", router);
 }
 
