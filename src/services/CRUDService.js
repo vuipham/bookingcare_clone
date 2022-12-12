@@ -67,6 +67,7 @@ let getUserInfoById = (userId) => {
         } catch(e) {
             reject(e)
         }
+        console.log(user);
     })
 }
 
