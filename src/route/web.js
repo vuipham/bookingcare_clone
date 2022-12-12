@@ -18,6 +18,8 @@ let initWebRoutes = (app) => {
 
     router.post('/put-crud', homeController.putCRUD);
 
+    router.get('/delete-crud', homeController.deleteCRUD)
+
 
     //rest api
     return app.use("/", router);
